@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+	background-repeat: repeat-x;
+	background-image: url(images/bg.png);
+	background-attachment: fixed;
+	background-position: top;
+	font: normal small verdana, arial, helvetica, sans-serif;
+}
+
+div#header {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 20px;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: #FFF;
+	opacity: 0.8;
+	background-image: url(images/sandwich.gif);
+	background-position: bottom;
+	background-repeat: repeat-x;
+}
+
+div#footer {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 5%;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: #FFF;
+	opacity: 0.8;
+}
+p.headerText {
+	text-align : center;
+	padding-bottom:60px;
+}
+div.threadItem {
+	background-color: #FFF;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 5px;
+	padding: 0;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #79CDCD;
+	opacity: 0;
+}
+div.postItem {
+	padding-left: 10px;
+	margin-top: 4px;
+	border-style: solid;
+	border-color: #000;
+	border-width: 2px;
+}
+h3.threadTitle {
+	padding: 4px;
+	margin-top: 0;
+	font-weight: bold;
+}
+a.control {
+	text-decoration: none;
+	color: #AAA;
+	font-style: italic;
+}
+p.postTitle {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+h4 {
+	padding: 0;
+	margin: 0;
+}
+form.threadForm {
+	text-align: center;
+	padding-left: 10px;
+	margin-top: 4px;
+	border-style: solid;
+	border-color: #000;
+	border-width: 2px;
+}
+div.input {
+	padding-bottom: 2px;
+}
+textarea, input {
+	font-family: inherit;
+	font-size: inherit;
+}
+textarea.input, input.input {
+	width: 200px;
+}
+
+textarea.error, input.error {
+	border-color: #A61414;
+	border-style: solid;
+}
+

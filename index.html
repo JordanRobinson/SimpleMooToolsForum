@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Sandwich Forum</title>
+		<link rel="stylesheet" href="styles.css" type="text/css">
+		<script type="text/javascript" src="js/mootools.js"></script>
+		<script type="text/javascript" src="js/mootools-more-1.4.0.1.js"></script> <!-- For Effects and transitions -->
+		<script type="text/javascript" src="js/getThreads.js"></script>
+	</head>
+
+	<body>
+		<div id="header">
+			<h2>Sandwiches Forum</h2>
+			<p class="headerText">
+				This is a forum dedicated to the discussion of all aspects of sandwiches.
+			</p>
+		</div>
+		<!--header end-->
+		<div>
+			<div id="threadList"></div>
+		</div>
+		<div id="footer">
+			<h3>Create a new Thread</h3>
+
+			<form id="newThread" action="#">
+				<div class="input">
+					<input type="text" name="title" placeholder="Title" class="input" />
+				</div>
+				<div class="input">
+					<input type="text" name="name" placeholder="Name" class="input" />
+				</div>
+				<div class="input">
+					<textarea name="comment" placeholder="Comment" class="input" ></textarea>
+				</div>
+				<div class="input">
+					<input type="text" name="password" placeholder="Password" class="input" />
+				</div>
+				<div class="input">
+					<input type="submit" value="submit" class="input" />
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
